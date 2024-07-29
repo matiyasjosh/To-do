@@ -4,7 +4,7 @@ function addTask() {
 
     if (newTask) {
         const li = document.createElement('li');
-        // the task is editable by clicking on the task it self
+        // the task is editable by clicking on the task itself
         li.innerHTML = `<div class="edit" onclick="editTask(this)">${newTask}</div><span class="remove" onclick="removeTask(this)">x</span>` ;
         document.querySelector("#tasklist").appendChild(li);
         newTask = '';
