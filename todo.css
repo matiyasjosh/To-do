@@ -1,0 +1,48 @@
+body {
+    margin-top: 10rem;
+    margin-left: 30rem;
+}
+
+input {
+    background-color: beige;
+    width: 20rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
+
+button {
+    padding: .6rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+}
+
+ul li {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 20rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    background: #f4f1f1;
+    border-radius: .5em;
+}
+
+span {
+    background: black;
+    color: #fff;
+    padding: .3em;
+    border-radius: .2rem;
+    cursor: pointer;
+}
